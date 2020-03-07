@@ -72,8 +72,8 @@ class HomeController < ApplicationController
       ],
     }
     {
-      url: "https://www.google.com.mx/maps/place/BROGA+BARRA+%26+EXPENDIO+DE+CAF%C3%89+(PANORAMA)/@21.1508301,-101.6979943,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMtOuibpAiw8BbxFTQZBrcVEVwoY7E0BCtxRp0v!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMtOuibpAiw8BbxFTQZBrcVEVwoY7E0BCtxRp0v%3Dw203-h152-k-no!7i4032!8i3024!4m5!3m4!1s0x842bbf5a8230734b:0xfebfeebb67913de6!8m2!3d21.1507232!4d-101.6979121#",
-      name: "Boroga",
+      url: "https://lh3.googleusercontent.com/p/AF1QipMtOuibpAiw8BbxFTQZBrcVEVwoY7E0BCtxRp0v=s0",
+      name: "Broga",
       address: "Av. Panorama 604 A, Panorama, 37160 León, Gto.",
       tags: [ 
         {
