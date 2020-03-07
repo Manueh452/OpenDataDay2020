@@ -30,7 +30,7 @@ _Recuerda agregar la información de tu cafeteria en este tempalte._
 
 4. Una vez estes listo para agregar tu cafeteria. Da click en la opcion que dice _"Create a new branch for this commit and start a pull request"_
 ![PR](https://guides.github.com/activities/hello-world/commit.png)
-5. Escribe una breve descripción de tus cambios en la seccide ón Commit changes en el campo "Add an optional extended description"
+5. Escribe una breve descripción de tus cambios en la sección ón Commit changes en el campo "Add an optional extended description"
 5. En el nombre de la rama agrega el nombre de la cafetería
 6. Da click en el button **Propose file Change**.
 7. Si todo esta correcto alguien del equipo agregara tus cambios. Si no, se te propondran cambios en el Pull Request. 
