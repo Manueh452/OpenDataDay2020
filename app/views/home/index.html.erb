@@ -9,17 +9,23 @@
 </div>
 <br>
 <h2>Nuestra Selección</h2>
-<div class="d-flex flex-row">
-  <div class="card" style="width: 18rem;">
-    <img src="https://images.unsplash.com/photo-1525610553991-2bede1a236e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" class="card-img-top">
+<div class="d-flex flex-row justify-content-around flex-wrap">
+  <% @places.each do |place| %>
+  <div class="card mb-5" style="width: 18rem;">
+    <img src="<%= place[:url] %>" class="card-img-top">
     <div class="card-body">
-      <p class="card-text"><span class="text-uppercase badge badge-pill badge-success">barato</span> <span class="badge badge-pill badge-warning">WIFI INESTABLE</span></p>
-      <h5 class="card-title">Café del Valle</h5>
-      <p class="card-text">Av. Panorama 1109, Valle del Campestre</p>
+      <p class="card-text">
+      <% place[:tags].each do |place_tag| %>
+        <span class="badge badge-pill badge-<%= place_tag[:color] %>"><%= place_tag[:label] %> </span>
+      <% end %>
+      </p>
+      <h5 class="card-title"><%= place[:name] %></h5>
+      <p class="card-text"><%= place[:address] %></p>
     </div>
   </div>
+  <% end %>
 </div>
 <br>
 <br>
 <br>
-
+<%= @places %>
