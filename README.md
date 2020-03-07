@@ -1,27 +1,7 @@
-# README
+# Open Data Day 2020
+Este repositorio tiene un pequeño ejemplo de como funciona un proyecto open source y como los asistentes pueden dede un navegador hacer una contribución. Aunque el ejercicio parezca burdo, todos los proyectos en GitHub utilizan un workflow similar para aceptar contribuciones. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+**No hay contribución que no sirva**
 
 ## Como agregar tu cafetería
 Para agregar tu cafetería:
